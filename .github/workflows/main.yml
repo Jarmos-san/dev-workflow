@@ -1,0 +1,24 @@
+name: Build Book & Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  buildAndDeploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install mdBook
+      run: |
+        mkdir mbook
+        curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.14/mdbook-v0.4.14-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook
+        echo `pwd`/mdbook >> $GITHUB_PATH
+
+    - name: Deploy to Vercel
+      run: |
+        echo "TODO: Deploy to Vercel"
