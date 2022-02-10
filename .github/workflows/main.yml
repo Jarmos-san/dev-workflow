@@ -1,34 +1,14 @@
 name: Build Book & Deploy to Vercel
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
 
 jobs:
   buildAndDeploy:
-
     runs-on: ubuntu-latest
-
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Setup mdBook
-      uses: peaceiris/actions-mdbook@v1
-      with:
-        mdbook-version: "v0.4.15"
-
-    - name: Generate the contents of the book
-      run: mdbook build
-
-    - name: Deploy to Vercel
-      uses: amondnet/vercel-action@v20
-      with:
-        vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        vercel-args: "--prod"
-        vercel-org-id: ${{ secrets.ORG_ID }}
-        vercel-project-id: ${{ secrets.PROJECT_ID }}
+        - uses: XAMPPRocky/deploy-mdbook@v1.1
+          with:
+              token: ${{ secrets.GITHUB_TOKEN }}
