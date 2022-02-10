@@ -11,5 +11,3 @@ This book & it's contents are shared under an open-source license. As such you'r
 This book is open-sourced & licensed under [Creative Commons Attribution Share Alike 4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html). While any code snippets or coding examples are shared under the terms & conditions of the [MIT License](https://spdx.org/licenses/MIT.html).
 
 Please refer to the [LICENSE](./LICENSE) document for more info about the licensing terms & conditions of using this book.
-
-Testing if the deployment works as expected or not!
