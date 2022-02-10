@@ -2,7 +2,6 @@
 authors = ["Somraj Saha"]
 language = "en"
 multilingual = false
-src = "src"
 title = "Jarmos's Development Workflow Explained!"
 description = "Documentation & reference for Jarmos's personal development workflow"
 
