@@ -11,5 +11,5 @@ jobs:
 
       - name: Build & Deploy to GitHub Pages
         uses: XAMPPRocky/deploy-mdbook@v1.1
-          with:
-            token: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
