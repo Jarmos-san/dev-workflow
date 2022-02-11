@@ -6,8 +6,10 @@ title = "Jarmos's Development Workflow Explained!"
 description = "Documentation & reference for Jarmos's personal development workflow"
 
 [output.html]
+default-theme = "Rust"
+preferred-dark-theme = "Ayu"
 git-repository-url = "https://github.com/Jarmos-san/dev-workflow"
 edit-url-template = "https://github.com/Jarmos-san/dev-workflow/edit/main/{path}"
 
-[output.html.playground]
-line-numbers = true
+[output.html.fold]
+enable = true
