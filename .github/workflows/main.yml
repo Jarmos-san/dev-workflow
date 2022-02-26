@@ -18,5 +18,11 @@ jobs:
       - name: Generate static content for the book
         run: mdbook build
 
+      - name: Setup Node.js (required to install Vercel CLI)
+        uses: actions/setup-node@v3
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel
+
       - name: Deploy static content to Vercel
         run: echo "TODO"
