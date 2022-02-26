@@ -16,7 +16,7 @@ jobs:
           echo "$(pwd)/bin" >> $GITHUB_PATH
 
       - name: Generate static content for the book
-        run: echo "TODO"
+        run: mdbook build
 
       - name: Deploy static content to Vercel
         run: echo "TODO"
