@@ -1,7 +1,6 @@
 # Table of Contents
 
-[Introduction](../README.md)
-[Purpose of the Book](about_book.md)
+[Introduction](../README.md) [Purpose of the Book](about_book.md)
 
 <!-- markdownlint-disable -->
 
@@ -37,11 +36,12 @@
 <!-- - [Managing SSH & GPG Keys](managing_ssh_and_gpg_keys/README.md)
   - [Generating & Managing SSH Keys](managing_ssh_and_gpg_keys/generating_and_managing_ssh_keys.md)
   - [Generating & Managing GPG Keys](managing_ssh_and_gpg_keys/generating_and_managing_gpg_keys.md) -->
+
 - [Managing SSH & GPG Keys](articles/managing_ssh_and_gpg_keys.md)
 
 <!-- markdownlint restore -->
 
-----
+---
 
 [Setup Your Own Dev Workflow](articles/setting_up_your_own_dev_workflow.md)
 [Usage Terms & Conditions](terms_and_conditions.md)
