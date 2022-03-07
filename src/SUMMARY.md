@@ -33,11 +33,11 @@
 
 # Miscellaneous Articles
 
-<!-- - [Managing SSH & GPG Keys](managing_ssh_and_gpg_keys/README.md)
+- [Managing SSH & GPG Keys](managing_ssh_and_gpg_keys/README.md)
   - [Generating & Managing SSH Keys](managing_ssh_and_gpg_keys/generating_and_managing_ssh_keys.md)
-  - [Generating & Managing GPG Keys](managing_ssh_and_gpg_keys/generating_and_managing_gpg_keys.md) -->
+  - [Generating & Managing GPG Keys](managing_ssh_and_gpg_keys/generating_and_managing_gpg_keys.md)
 
-- [Managing SSH & GPG Keys](articles/managing_ssh_and_gpg_keys.md)
+- [Refactor section over here](articles/managing_ssh_and_gpg_keys.md)
 
 <!-- markdownlint restore -->
 
