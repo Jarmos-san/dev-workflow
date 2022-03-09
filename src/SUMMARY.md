@@ -43,6 +43,7 @@
 
 ---
 
+[Appendix](appendix.md)
 [Setup Your Own Dev Workflow](articles/setting_up_your_own_dev_workflow.md)
 [Usage Terms & Conditions](terms_and_conditions.md)
 [About the Author](about_jarmos.md)
