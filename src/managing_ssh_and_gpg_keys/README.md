@@ -48,6 +48,18 @@ this chapter. The chapter (and its sub-sections) attempts to shed on;
 So, withou further adieu let's dive deeper into more specific details of this
 chapter!
 
+Useful resources:
+
+- https://risanb.com/code/backup-restore-gpg-key/
+- https://msol.io/blog/tech/back-up-your-pgp-keys-with-gpg/
+- https://www.jwillikers.com/backup-and-restore-a-gpg-key
+- https://www.jabberwocky.com/software/paperkey/
+- https://softwareengineering.stackexchange.com/questions/212192/what-are-the-advantages-and-disadvantages-of-cryptographically-signing-commits-a
+- https://mikegerwitz.com/2012/05/a-git-horror-story-repository-integrity-with-signed-commits
+- https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html
+- https://www.freecodecamp.org/news/what-is-commit-signing-in-git/
+- https://dlorenc.medium.com/should-you-sign-git-commits-
+
 <!-- Reference links -->
 
 [git commits]: https://git-scm.com/docs/git-commit
