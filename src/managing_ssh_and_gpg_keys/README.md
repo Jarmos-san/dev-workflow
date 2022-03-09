@@ -1,70 +1,57 @@
-# Managing SSH & GPG Keys
+# About SSH & GPG
 
-If you've been writing code for a while there's no way you wouldn't know what
-[Secure Shell (SSH)][ssh] & [GNU Private Guard (GPG)][gpg] are! They're integral
-tools used from securely authenticating into a remote machine to
-cryptographically signing electronic emails (and [git-commits][git commits] or
-[git-tags][git tags]). And if you weren't aware of any of that, don't fret, I've
-got you back!
+If you've been writing code for a while you would already be aware of [Secure
+Shell (SSH)][ssh] & [GNU Private Guard (GPG)][gpg]! They're integral tools used
+from securely authenticating into a remote machine to cryptographic signing of
+electronic emails. But more commonly & especially as a professional software
+dev, there's a good chance you sign your [git-commits][git commits] and/or
+[git-tags][git tags]).
 
-As a software developer of the 21st Century (_or possibly in the near future_),
-all source code you write will probably be stored & version-controlled at
-third-party service providers like [GitHub][github] or [GitLab][gitlab]. In a
-previous chapter we also mentioned about using (_and recommending_) using `git`
-to version control our projects. And on top of it we need to allow `git` & the
-third-party service providers to communicate with each other for validating the
-authenticity of the source code's author. Such validation tasks are taken care
-of by using both SSH & GPG.
+At the time of writing this book, most if not all software developers host their
+project's source code on a third-party service like
+[GitHub][github]/[GitLab][gitlab]. Both the services make use of SSH & GPG in
+some form or the other. For example, SSH is used to authenticate an user when
+pushing `git-commits` or `git-tags` to the remote repository. While GPG is used
+to verify the authenticity of a pushed commit or a tag.
 
-Explaining the intricate details of how the validation & authentication is
-performed is out-of-scope for this book. You can refer to the references linked
-in the Appendices for further info on that context. But regardless, here's an
-explanation of how I use SSH & GPG for my specific needs.
+So, as you can probably figure out, SSH & GPG both serves an integral role in
+programmer's toolkit. As such it's **VERY** important to take proper care while
+managing things related to those tools. To the uninitiated, the gravity of how
+important managing SSH & GPG is mightn't be clear right away. The tools are akin
+to the complex set of mechanisms installed at your home to keep intruders out &
+let only a specific set of people inside. Those set of specific people (like
+your family) probably has an access key code or a physical key without which
+they can't get into their own homes either!
 
-- SSH for authenticating myself when pushing `git-commits`. If I were to use
-  HTTPS instead, I would've to type in the password & username each time! Using
-  SSH is a major improvement of quality of life. And you can read more about it
-  on "[_Connecting to GitHub with SSH_][github ssh]".
-- I can also obviously use SSH to connect to a remote machine (say a Raspberry
-  Pi or a cloud-service provided one) with ease & utmost security.
-- And GPG is used to "sign" all of my work! So, all commits & tags I push to.
-  GitHub are signed using GPG.
+SSH & GPG serves similar purposes, as such, being irreponsible with them could
+possibly lead to some disastrous consequences. For example, an user with
+malicious intent could access your local machine remotely. Or perhaps, an
+impostor could share source code of an open-source project claiming to be you!
 
-While SSH & GPG can be used elsewhere as well & is not limited to the use cases
-I mentioned above, my needs are limited & your mileage may vary. However you
-decide to use these tools, they require some secret keys which should managed
-across your machines. They can also be configured to suit certain specific needs
-& invite some drastic quality of life improvements to your workflow.
+Hence, similar to how a real-life lock-and-key combination works to protect your
+house from intruders, SSH/GPG has to be used & managed in a similar fashion.
+Letting your SSH access code land on a malicious user's hands means they can now
+access your computer without much effort at all! And with the GPG keys, the user
+could share source code of your project claiming to be you!
 
-How I manage my secret keys & the configurations for SSH & GPG are detailed in
-this chapter. The chapter (and its sub-sections) attempts to shed on;
+In a later chapter we'll take a more in-depth look at what happens if your
+SSH/GPG keys were to be compromised. We'll also discuss measures you should take
+to protect yourself from such compromising situation. And what you should do if
+you were in such an unforeseen situation by accident.
 
-1. How I configure SSH & GPG
-2. The reasoning behind a specific configuration to exist.
-3. How a specific configuration value improves my quality of life.
-4. Generating new keys, backing them up for future requirements & storing them
-   securely.
+So, without further adieu let's dive deeper into more specific details on this
+topic! But don't forget to read the [recommended resources for further
+reading][appendix] in the Appendix. The resources there will help you further expand
+your knowledge about SSH & GPG to manage them as per your specific requirements.
 
-So, withou further adieu let's dive deeper into more specific details of this
-chapter!
-
-Useful resources:
-
-- https://risanb.com/code/backup-restore-gpg-key/
-- https://msol.io/blog/tech/back-up-your-pgp-keys-with-gpg/
-- https://www.jwillikers.com/backup-and-restore-a-gpg-key
-- https://www.jabberwocky.com/software/paperkey/
-- https://softwareengineering.stackexchange.com/questions/212192/what-are-the-advantages-and-disadvantages-of-cryptographically-signing-commits-a
-- https://mikegerwitz.com/2012/05/a-git-horror-story-repository-integrity-with-signed-commits
-- https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html
-- https://www.freecodecamp.org/news/what-is-commit-signing-in-git/
-- https://dlorenc.medium.com/should-you-sign-git-commits-
-
+<!-- prettier-ignore-start -->
 <!-- Reference links -->
 
 [git commits]: https://git-scm.com/docs/git-commit
 [git tags]: https://git-scm.com/docs/git-tag
 [github]: https://github.com
 [gitlab]: https://about.gitlab.com
-[github ssh]:
-  https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+[github ssh]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+[appendix]: ../appendix.html#appendix-recommended-further-reading
+
+<!-- prettier-ignore-end-->
