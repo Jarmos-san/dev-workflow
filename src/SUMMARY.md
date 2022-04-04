@@ -2,54 +2,55 @@
 
 <!-- markdownlint-disable -->
 
-[Introduction](../README.md) [Purpose of the Book](about_book.md)
+[Introduction](../README.md) [Purpose of the Book](about-book.md)
 
 # OS-Specific Workflows
 
-- [My Development Machines](os_specific_workflows/README.md)
-  - [Windows 10/11 Machines](os_specific_workflows/windows_machines.md)
-  - [Unix-like Machines](os_specific_workflows/unix_machines.md)
+- [My Development Machines](os-specific-workflows/README.md)
+  - [Windows 10/11 Machines](os-specific-workflows/windows-machines.md)
+  - [Unix-like Machines](os-specific-workflows/unix-machines.md)
   - [Raspberry Pi]()
   - [Remote Servers]()
 
 # Current Tools in my Arsenal
 
-- [List of Tools I Use for Software Development](tools_used/README.md)
+- [List of Tools I Use for Software Development](tools-used/README.md)
   - [Dotfiles Management]()
-    - [Chezmoi](tools_used/chezmoi_dotfiles_management.md)
+    - [Chezmoi](tools-used/chezmoi-dotfiles-management.md)
   - [Text Editors/IDEs]()
-    - [Visual Studio Code](tools_used/vscode_configurations.md)
-    - [Neovim](tools_used/neovim_configurations.md)
+    - [Visual Studio Code](tools-used/vscode-configurations.md)
+    - [Neovim](tools-used/neovim-configurations.md)
   - [Terminal Emulators](terminals/README.md)
     - [Kitty Terminal](terminals/kitty.md)
-    - [Windows Terminal](terminals/windows_terminal.md)
+    - [Windows Terminal](terminals/windows-terminal.md)
   - [Version Control Systems & Service Providers]()
-    - [Git](git/git_version_control_configurations.md)
+    - [Git](git/git-version-control-configurations.md)
     - [GitHub]()
-  - [Programming Languages](programming_languages/README.md)
-    - [Python](programming_languages/python.md)
-    - [TypeScript](programming_languages/typescript.md)
+  - [Programming Languages](programming-languages/README.md)
+    - [Python](programming-languages/python.md)
+    - [TypeScript](programming-languages/typescript.md)
     - [Bash]()
     - [Lua]()
     - [Golang]()
-  - [Screen Capture Needs](screen_cap_tools/README.md)
+  - [Screen Capture Needs](screen-cap-tools/README.md)
     - [Flameshot]()
     - [Open Broadcasting Software]()
 
 # Miscellaneous Articles
 
-- [Managing SSH & GPG Keys](managing_ssh_and_gpg_keys/README.md)
+- [Managing SSH & GPG Keys](managing-ssh-and-gpg-keys/README.md)
 
-  - [Generating & Managing SSH Keys](managing_ssh_and_gpg_keys/generating_and_managing_ssh_keys.md)
-  - [Generating & Managing GPG Keys](managing_ssh_and_gpg_keys/generating_and_managing_gpg_keys.md)
-- [Refactor section over here](articles/managing_ssh_and_gpg_keys.md)
+  - [Generating & Managing SSH Keys](managing-ssh-and-gpg-keys/generating-and-managing-ssh-keys.md)
+  - [Generating & Managing GPG Keys](managing-ssh-and-gpg-keys/generating-and-managing-gpg-keys.md)
+
+- [Refactor section over here](articles/managing-ssh-and-gpg-keys.md)
 - [Using "Programming Fonts" With Ligature Support]()
 
 ---
 
 [Appendix](appendix.md)
-[Setup Your Own Dev Workflow](articles/setting_up_your_own_dev_workflow.md)
-[Usage Terms & Conditions](terms_and_conditions.md)
-[About the Author](about_jarmos.md)
+[Setup Your Own Dev Workflow](articles/setting-up-your-own-dev-workflow.md)
+[Usage Terms & Conditions](terms-and-conditions.md)
+[About the Author](about-jarmos.md)
 
 <!-- markdownlint-restore -->
