@@ -2,7 +2,8 @@
 
 <!-- markdownlint-disable -->
 
-[Introduction](../README.md) [Purpose of the Book](about-book.md)
+[About the Project](about-project.md)
+[Preface](preface.md)
 
 # OS-Specific Workflows
 
@@ -32,26 +33,35 @@
     - [Lua]()
     - [Golang]()
   - [Shell Scripting/Interactive Requirements](shell-scripting/README.md)
-    - [Fish Shell](fish.md)
-    - [Bash](bash.md)
+    - [Fish Shell](shell-scripting/fish.md)
+    - [Bash](shell-scripting/bash.md)
   - [Screen Capture Needs](screen-cap-tools/README.md)
     - [Flameshot]()
     - [Open Broadcasting Software]()
 
+# Technical Writing
+
+- [About Technical Writing]()
+- [Tools in the Box]()
+  - [mdBook]()
+  - [LaTex]()
+  - [Tectonic]()
+- [Content Management Systems (CMS)]()
+  - [GraphCMS]()
+  - [Hashnode]()
+  - [Hosting & Deployment Tools]()
+
 # Miscellaneous Articles
 
+- [Setting Up Your Own Development Environment]()
 - [Managing SSH & GPG Keys](managing-ssh-and-gpg-keys/README.md)
-
   - [Generating & Managing SSH Keys](managing-ssh-and-gpg-keys/generating-and-managing-ssh-keys.md)
   - [Generating & Managing GPG Keys](managing-ssh-and-gpg-keys/generating-and-managing-gpg-keys.md)
-
-- [Refactor section over here](articles/managing-ssh-and-gpg-keys.md)
 - [Using "Programming Fonts" With Ligature Support]()
 
 ---
 
 [Appendix](appendix.md)
-[Setup Your Own Dev Workflow](articles/setting-up-your-own-dev-workflow.md)
 [Usage Terms & Conditions](terms-and-conditions.md)
 [About the Author](about-jarmos.md)
 
