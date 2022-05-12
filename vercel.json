@@ -4,5 +4,9 @@
   "github": {
     "enabled": false,
     "silent": true
-  }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/custom-404.html" }
+  ]
 }
