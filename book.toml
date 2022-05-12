@@ -1,3 +1,5 @@
+# For more information on configuring mdBook, refer to the following URL:
+# https://rust-lang.github.io/mdBook/format/configuration/index.html
 [book]
 authors = ["Somraj Saha"]
 language = "en"
@@ -5,8 +7,16 @@ multilingual = false
 title = "Jarmos's Development Workflow Explained!"
 description = "Documentation & reference for Jarmos's personal development workflow"
 
+[build]
+create-missing = false
+
 [output.html]
 default-theme = "Rust"
 preferred-dark-theme = "Ayu"
 git-repository-url = "https://github.com/Jarmos-san/dev-workflow"
 edit-url-template = "https://github.com/Jarmos-san/dev-workflow/edit/main/{path}"
+git-repository-icon = "fa-code-fork"
+input-404 = "custom-404.md"
+
+[output.html.fold]
+enable = true
