@@ -1,6 +1,16 @@
 # Appendix: Recommended Further Reading
 
-## Recommended Reading for SSH & GPG Stuff
+Setting up a personal development environment & workflow is time-consuming (and
+it can take days to years to set things right). For me, doing so couldn't have
+been possible without the help of innumerable resources I found across the
+Internet. The Appendix holds some (if not all) of the resources I found helpful.
+
+## Table of Contents
+
+- [Appendix: Recommended Further Reading](appendix.html#appendix-recommended-further-reading)
+  - [Managing Personal Authentication & Identity Using SSH & GPG](appendix.html#managing-personal-authentication--identity-using-ssh--gpg)
+
+### Managing Personal Authentication & Identity Using SSH & GPG
 
 - [_How to Backup & Restore Your GPG Key_][risan bagja] by Risan Bagja
 - [_Backup Your PGP Keys With GPG_][msol] by Mike Solomon
@@ -14,7 +24,8 @@
 - [_How (and why) to sign Git commits_][with blue ink] by Alessandro Segala
 - [_What is Commit Signing in Git_][freecodecamp | what's git commit signing?]
   by Seth Falco
-- [_How to backup GPG | serverfault - StackExchange][StackExchange | How to backup GPG]
+- [How to backup GPG | serverfault -
+  StackExchange][stackexchange | how to backup gpg]
 
 <!-- prettier-ignore-start -->
 
