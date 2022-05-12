@@ -16,7 +16,7 @@ preferred-dark-theme = "Ayu"
 git-repository-url = "https://github.com/Jarmos-san/dev-workflow"
 edit-url-template = "https://github.com/Jarmos-san/dev-workflow/edit/main/{path}"
 git-repository-icon = "fa-code-fork"
-input-404 = "custom-404.md"
+input-404 = "404.md"
 
 [output.html.fold]
 enable = true
