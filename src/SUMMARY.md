@@ -5,15 +5,14 @@
 [About the Project](about-project.md)
 [Preface](preface.md)
 
-# OS-Specific Workflows
+# Workstation Platforms
 
-- [My Development Machines](os-specific-workflows/README.md)
   - [Windows 10/11 Machines](os-specific-workflows/windows-machines.md)
   - [Unix-like Machines](os-specific-workflows/unix-machines.md)
   - [Raspberry Pi]()
   - [Remote Servers]()
 
-# Current Tools in my Arsenal
+# Development Toolbox
 
 - [List of Tools I Use for Software Development](tools-used/README.md)
   - [Dotfiles Management]()
@@ -39,7 +38,7 @@
     - [Flameshot]()
     - [Open Broadcasting Software]()
 
-# Technical Writing
+# Technical Writing Needs
 
 - [About Technical Writing]()
 - [Tools in the Box]()
@@ -51,7 +50,7 @@
   - [Hashnode]()
   - [Hosting & Deployment Tools]()
 
-# Miscellaneous Articles
+# Miscellaneous Guides
 
 - [Setting Up Your Own Development Environment]()
 - [Managing SSH & GPG Keys](managing-ssh-and-gpg-keys/README.md)
