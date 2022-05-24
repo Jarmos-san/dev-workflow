@@ -23,4 +23,4 @@ jobs:
         uses: peter-evans/create-issue-from-file@v2
         with:
           title: URL Audit Across the Website
-          content-path: ./report.github
+          content-filepath: ./report.github
