@@ -19,4 +19,4 @@ git-repository-icon = "fa-code-fork"
 input-404 = "404.md"
 
 [output.html.fold]
-enable = true
+enable = false
