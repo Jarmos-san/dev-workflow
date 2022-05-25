@@ -20,7 +20,7 @@ jobs:
           ./areyouok-linux-amd64 -i=.git -r=github ./src
 
       - name: Create an Issue Thread (If Broken URLs Exists)
-        uses: peter-evans/create-issue-from-file@v2
+        uses: peter-evans/create-issue-from-file@v4
         with:
           title: URL Audit Across the Website
           content-filepath: ./report.github
