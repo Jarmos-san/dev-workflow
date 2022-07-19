@@ -37,6 +37,9 @@ sub-topics you'll stumble upon in the succeeding chapters.
 3. Specific issues and/or quirks I faced while using any of the aforementioned
    tools.
 
+That said, head over to next chapters to find out more about the preferred
+Terminal Emulators of my choice.
+
 <!-- References: -->
 
 [1]: https://en.wikipedia.org/wiki/Terminal_emulator
