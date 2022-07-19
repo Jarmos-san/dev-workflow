@@ -15,8 +15,9 @@
 
 # Development Toolbox
 
-- [Introducing the Development Toolbox](toolbox/README.md)
-- [Chezmoi](toolbox/chezmoi-dotfiles-management.md)
+- [Introducing My Development Toolbox](toolbox/README.md)
+- [Dotfiles Management](dotfiles/README.md)
+  - [Chezmoi](dotfiles/chezmoi-dotfiles-management.md)
 - [Text Editors/IDEs]()
   - [Visual Studio Code](toolbox/vscode-configurations.md)
   - [Neovim](toolbox/neovim-configurations.md)
